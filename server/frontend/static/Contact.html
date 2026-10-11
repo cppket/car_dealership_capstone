@@ -1,4 +1,127 @@
+```html
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact Us | DriveFinder</title><link rel="stylesheet" href="styles.css"><style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#1e293b;background:#f8fafc}nav{background:#102a43;padding:18px 6%;display:flex;gap:22px;flex-wrap:wrap}nav a{color:white;text-decoration:none}nav a.active{font-weight:bold;text-decoration:underline;text-underline-offset:6px}.hero{padding:42px 6%;background:#dbeafe}.content{padding:30px 6%;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:22px}.card img{width:100%;height:180px;object-fit:cover;border-radius:9px}.muted{color:#64748b}
-</style></head><body><nav><a href="/">Home</a><a href="/static/About.html">About Us</a><a class="active" href="/static/Contact.html">Contact Us</a></nav><section class="hero"><h1>Contact Us</h1><p>Have a question about a dealership or a review? Get in touch with our demo support team.</p></section><main class="content"><section class="card"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Customer support team"><h2>Customer support</h2><p class="muted">Sample contact details for the capstone demonstration.</p><p><strong>Email:</strong> support@example.com</p><p><strong>Phone:</strong> +1 555-010-2020</p></section><section class="card"><h2>Office details</h2><p><strong>Address:</strong> 100 Demo Avenue, Example City, KS 00000</p><p><strong>Hours:</strong> Monday–Friday, 9:00 AM–5:00 PM</p><p><strong>General enquiries:</strong> <a href="mailto:hello@example.com">hello@example.com</a></p><p class="muted">The address and contact information above are placeholders, not a real business location.</p></section></main></body></html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | DriveFinder</title>
+
+    <!-- Required stylesheets -->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #1e293b;
+            background: #f8fafc;
+        }
+
+        nav {
+            background: #102a43;
+            padding: 18px 6%;
+            display: flex;
+            gap: 22px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+            text-underline-offset: 6px;
+        }
+
+        .hero {
+            padding: 42px 6%;
+            background: #dbeafe;
+        }
+
+        .content {
+            padding: 30px 6%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 22px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 9px;
+        }
+
+        .muted {
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/static/About.html">About Us</a>
+        <a class="active" href="/static/Contact.html">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Contact Us</h1>
+        <p>
+            Have a question about a dealership or a review?
+            Get in touch with our demo support team.
+        </p>
+    </section>
+
+    <main class="content">
+        <section class="card">
+            <img src="/static/contactus.png" alt="Customer support team">
+
+            <h2>Customer support</h2>
+            <p class="muted">
+                Sample contact details for the capstone demonstration.
+            </p>
+            <p><strong>Email:</strong> support@example.com</p>
+            <p><strong>Phone:</strong> +1 555-010-2020</p>
+        </section>
+
+        <section class="card">
+            <img src="/static/cars.jpeg" alt="Cars">
+
+            <h2>Office details</h2>
+            <p>
+                <strong>Address:</strong>
+                100 Demo Avenue, Example City, KS 00000
+            </p>
+            <p>
+                <strong>Hours:</strong>
+                Monday–Friday, 9:00 AM–5:00 PM
+            </p>
+            <p>
+                <strong>General enquiries:</strong>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+            </p>
+            <p class="muted">
+                The address and contact information above are placeholders,
+                not a real business location.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
+```
